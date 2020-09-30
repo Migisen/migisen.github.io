@@ -1,0 +1,147 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 3em;
+}
+
+/* Заголовок(Имя, город, возраст и квадрат) */
+header{
+    margin: auto;
+}
+
+.name-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.age{
+    margin-top: 0.5em;
+    font-size: 1.2rem
+}
+
+.square{
+    height: 15px;
+    width: 15px;
+    background-color: #572491;
+}
+
+/* Основное тело резюме */
+.main-container{
+    margin-top: 2em;
+    display: flex;
+}
+
+
+/* Правый бар с инфой */
+.info-bar{
+   min-width: 11em;
+}
+
+.contacts{
+    margin-bottom: 1.8em;
+}
+
+.contacts a{
+    text-decoration: none;
+    color:#572491 ;
+}
+
+.contacts i{
+    margin-right: 0.2em;
+}
+
+.info-element{
+    margin-bottom: 0.6em;
+}
+
+.info-header{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+
+/* Левая часть резюме */
+
+
+.section-container{
+    margin-right: 2em;
+}
+
+
+
+.title-block{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.section-title{
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    display: inline;
+    border-bottom: 2px solid #000000;
+}
+
+.section-content{
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+/* Часть про образование */
+
+.section-wraper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 1em;
+}
+
+.square-block{
+    margin-right: 0.5em;
+    margin-top: 0.2em;
+}
+
+.small-square {
+    width: 10px;
+    height: 10px;
+}
+
+.university{
+    font-weight: bold;
+}
+
+.faculty{
+    color: #696969;
+}
+
+/* Навыки */
+
+.skills-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+.skill{
+    width: 8em;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.skill-header{
+    font-size: 1.1rem;
+    margin-bottom: 0.2em;
+}
+
+.skill-content{
+    font-size: 0.8rem;
+    color: #696969;
+}
